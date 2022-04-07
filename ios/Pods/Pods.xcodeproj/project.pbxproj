@@ -3467,6 +3467,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3486,6 +3501,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -3496,6 +3512,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/flutter_inappwebview/flutter_inappwebview-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/flutter_inappwebview/flutter_inappwebview.modulemap;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -3525,6 +3556,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -3535,6 +3567,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/flutter_downloader/flutter_downloader-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -3562,6 +3609,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_armv7\"",
@@ -3572,6 +3620,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/permission_handler/permission_handler-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -3598,8 +3661,23 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/OCMock/OCMock-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -3686,6 +3764,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3705,6 +3798,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_armv7\"",
@@ -3715,6 +3809,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/flutter_downloader/flutter_downloader-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -3742,6 +3851,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_armv7\"",
@@ -3752,6 +3862,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/url_launcher/url_launcher-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/url_launcher/url_launcher.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -3779,8 +3904,23 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/OCMock/OCMock-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -3803,6 +3943,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_armv7\"",
@@ -3813,6 +3954,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/flutter_inappwebview/flutter_inappwebview-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/flutter_inappwebview/flutter_inappwebview.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -3842,6 +3998,21 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
@@ -3864,6 +4035,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -3872,6 +4044,20 @@
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
 					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
@@ -3899,8 +4085,23 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/OrderedSet/OrderedSet-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/OrderedSet/OrderedSet.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
@@ -3922,9 +4123,24 @@
 			baseConfigurationReference = 8D21D5669BA1FEB86FB86AE21CEEBACA /* flutter_downloader.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/flutter_downloader";
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IBSC_MODULE = flutter_downloader;
 				INFOPLIST_FILE = "Target Support Files/flutter_downloader/ResourceBundle-FlutterDownloaderDatabase-flutter_downloader-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = FlutterDownloaderDatabase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3941,6 +4157,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -3951,6 +4168,20 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/integration_test/integration_test-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/integration_test/integration_test.modulemap;
 				OTHER_LDFLAGS = (
@@ -3977,9 +4208,24 @@
 			baseConfigurationReference = 8D21D5669BA1FEB86FB86AE21CEEBACA /* flutter_downloader.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/flutter_downloader";
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IBSC_MODULE = flutter_downloader;
 				INFOPLIST_FILE = "Target Support Files/flutter_downloader/ResourceBundle-FlutterDownloaderDatabase-flutter_downloader-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = FlutterDownloaderDatabase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3996,8 +4242,23 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/OCMock/OCMock-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -4020,6 +4281,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4030,6 +4292,20 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/path_provider_ios/path_provider_ios-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/path_provider_ios/path_provider_ios.modulemap;
 				OTHER_LDFLAGS = (
@@ -4059,6 +4335,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4069,6 +4346,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/url_launcher/url_launcher-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/url_launcher/url_launcher.modulemap;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -4095,6 +4387,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4176,6 +4483,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4186,6 +4494,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/permission_handler/permission_handler-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -4212,8 +4535,23 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/OrderedSet/OrderedSet-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/OrderedSet/OrderedSet.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -4238,6 +4576,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4248,6 +4587,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/flutter_downloader/flutter_downloader-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -4276,6 +4630,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4284,6 +4639,20 @@
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
 					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
@@ -4312,6 +4681,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4322,6 +4692,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/permission_handler/permission_handler-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -4349,6 +4734,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4359,6 +4745,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/url_launcher/url_launcher-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/url_launcher/url_launcher.modulemap;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -4387,6 +4788,21 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
@@ -4407,8 +4823,23 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "Target Support Files/OrderedSet/OrderedSet-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/OrderedSet/OrderedSet.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -4433,6 +4864,21 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
@@ -4454,6 +4900,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4464,6 +4911,21 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/flutter_inappwebview/flutter_inappwebview-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/flutter_inappwebview/flutter_inappwebview.modulemap;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -4493,6 +4955,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4503,6 +4966,20 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/integration_test/integration_test-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/integration_test/integration_test.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
@@ -4533,6 +5010,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4541,6 +5019,20 @@
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
 					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
@@ -4631,6 +5123,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4641,6 +5134,20 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/path_provider_ios/path_provider_ios-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/path_provider_ios/path_provider_ios.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
@@ -4670,6 +5177,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4680,6 +5188,20 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/path_provider_ios/path_provider_ios-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/path_provider_ios/path_provider_ios.modulemap;
 				OTHER_LDFLAGS = (
@@ -4706,9 +5228,24 @@
 			baseConfigurationReference = F7AEFF080D0257AB2073C8D37B814109 /* flutter_downloader.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/flutter_downloader";
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IBSC_MODULE = flutter_downloader;
 				INFOPLIST_FILE = "Target Support Files/flutter_downloader/ResourceBundle-FlutterDownloaderDatabase-flutter_downloader-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = FlutterDownloaderDatabase;
 				SDKROOT = iphoneos;
@@ -4726,6 +5263,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"\"/Volumes/HDD/developer/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_armv7\"",
@@ -4736,6 +5274,20 @@
 					"$(inherited)",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/integration_test/integration_test-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PERMISSION_EVENTS=0",
+					"PERMISSION_REMINDERS=0",
+					"PERMISSION_CONTACTS=0",
+					"PERMISSION_CAMERA=0",
+					"PERMISSION_MICROPHONE=0",
+					"PERMISSION_SPEECH_RECOGNIZER=0",
+					"PERMISSION_PHOTOS=0",
+					"PERMISSION_LOCATION=0",
+					"PERMISSION_NOTIFICATIONS=0",
+					"PERMISSION_MEDIA_LIBRARY=0",
+					"PERMISSION_SENSORS=0",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULEMAP_FILE = Headers/Public/integration_test/integration_test.modulemap;
 				OTHER_LDFLAGS = (
